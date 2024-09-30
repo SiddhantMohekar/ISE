@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @Controller 
+@RequestMapping("/sample")
 public class UserController {
     
     @GetMapping("/register")

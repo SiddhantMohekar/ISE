@@ -11,5 +11,10 @@ public class UserController {
     public String getMethodName() {
         return "registerpage";
     }
+
+    @GetMapping("/is2-0.0.1-SNAPSHOT")
+    public String getMethod() {
+        return "registerpage";
+    }
     
 }

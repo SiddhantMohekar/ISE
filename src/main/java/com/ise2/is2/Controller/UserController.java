@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 public class UserController {
     
     @GetMapping("/register")
-    public String getMethodName(@PathVariable int id) {
+    public String getMethodName() {
         return "/Register";
     }
     
